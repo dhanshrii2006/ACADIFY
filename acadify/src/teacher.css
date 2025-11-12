@@ -1,0 +1,101 @@
+.teacher-dashboard {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f7f8fc, #e9eef5);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: rgb(2, 2, 81);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 25px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #ffd700;
+}
+
+.teacher-name {
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.dashboard-content {
+  padding: 150px 40px;
+}
+
+/* Students Table */
+.students-section table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.students-section th,
+.students-section td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Upload Lectures */
+.upload-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.upload-section input {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.upload-section button {
+  background-color: #2a3f54;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.uploaded-videos {
+  margin-top: 20px;
+}
+
+.video-item {
+  background: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Assessment Section */
+.marks-section ul {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.marks-section li {
+  margin-bottom: 8px;
+}
+
